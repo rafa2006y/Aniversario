@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'v1';
+  src: url('Feeling Lovely.ttf')
+}
+
+@font-face {
+  font-family: 'v';
+  src: url('ValentineSoul.ttf')
+}
+
+.cuerpo {
+  background-color: black;
+}
+
+.h1 {
+  font-family: "v1";
+  color: white;
+  text-align: center;
+  margin-top: 50%;
+  font-size: 38px;
+  margin-bottom: 0%;
+}
+
+.h12 {
+  font-family: "v";
+  text-align: center;
+  color: white;
+  padding: 0%;
+}
+
+.p {
+  font-family: "v1";
+  color: white;
+}
+
+.p1 {
+  font-family: "v";
+  color: white;
+}
+
+#progressBarContainer {
+  width: 100%;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+#progressBar {
+  width: 0;
+  height: 10px;
+  border-radius: 5px 6px 5px 5px;
+  background-color: purple;
+  transition: width 0.3s ease;
+}
+
+.contenedor {
+  position: relative;
+  top: 5%;
+  background-color: rgba(0,0,0,0.8);
+  border: 29px solid transparent;
+-moz-border-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ornamental_border.svg/1280px-Ornamental_border.svg.png) 50 round;
+-webkit-border-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ornamental_border.svg/1280px-Ornamental_border.svg.png) 50 round;
+-o-border-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ornamental_border.svg/1280px-Ornamental_border.svg.png) 50 round;
+border-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Ornamental_border.svg/1280px-Ornamental_border.svg.png) 50 round;
+}
