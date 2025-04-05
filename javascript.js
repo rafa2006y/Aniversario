@@ -7,6 +7,7 @@ function simulateProgress() {
   let progress = 0;
   const interval = setInterval(() => {
     if (progress >= 100) {
+      clearInterval(interval);
       window.location.href="./pagina1.html";
     }
     
