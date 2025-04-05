@@ -19,3 +19,22 @@ function simulateProgress() {
 }
 
 simulateProgress();
+
+let musica = document.querySelector(".music"); 
+
+function playAudio() { 
+  
+  musica.play().catch(error => { console.log('La reproducción automática fue bloqueada. Iniciando manualmente...'); }); 
+
+} 
+
+playAudio(); 
+
+document.body.addEventListener('click', () => { 
+  
+  if (musica.paused) { 
+    
+    playAudio(); 
+  
+} 
+});
